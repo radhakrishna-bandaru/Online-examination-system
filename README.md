@@ -1,16 +1,74 @@
-# React + Vite
+# Online Examination System 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive online examination platform built with React.js that provides user authentication and an interactive examination experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User Login and Signup
+- Interactive examination module
+- Client-side form validation
+- Single Page Application (SPA) navigation
+- Exam data and session persistence using LocalStorage
+- Responsive user interface
+- Easy navigation between application pages
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- React Router DOM
+- React Icons
+- LocalStorage
+- Vite
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+Online-examination-system/
+│
+├── public/
+├── src/
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## ⚙️ How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/radhakrishna-bandaru/Online-examination-system.git
+```
+
+### 2. Open the project
+
+```bash
+cd Online-examination-system
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+## 🌐 Live Demo
+
+[Online Examination System](https://online-examination-system-rk.vercel.app/)
+
+## 👨‍💻 Author
+
+**Radha Krishna**
+
+[GitHub](https://github.com/radhakrishna-bandaru)
